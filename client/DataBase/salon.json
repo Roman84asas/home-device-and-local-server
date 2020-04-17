@@ -1,7 +1,7 @@
 [
   {
-    "_id": "186z41vf641s6v81x54cv716153zv74651z8s14784mj78f4176844z654",
-    "name": "Спортзал",
+    "_id": "1684v48768778b4894984zas89498498o4981864fn89498d984894i844",
+    "name": "Гостиная",
     "plane": {
       "shine": true,
       "music": true,
@@ -10,33 +10,33 @@
       "window": true
     },
     "shine": {
-      "_id": "gym_12651516566xk5fsb654451v561xv56z5sv16541z65v41",
+      "_id": "heat_12651516566xk5fsb654451v561xv56z5sv16541z65v41",
       "name": "Освещение",
       "bright": 220,
       "power": 230,
       "included": true
     },
     "music": {
-      "_id": "gym_126515d165xb654451v561xxv56z5sv1a6v541z65v4r1",
+      "_id": "heat_126515d165xb654451v561xxv56z5sv1a6v541z65v4r1",
       "name": "Музыка",
       "temp": 31,
       "included": false
     },
     "heating": {
-      "_id": "gym_1265v151k6566xcv654451v561xv56z5sv16541z65v",
+      "_id": "heat_1265v151k6566xcv654451v561xv56z5sv16541z65v",
       "name": "Отопление",
       "temp": 31,
       "power": 230,
       "included": false
     },
     "ventilation": {
-      "_id": "gym_126515fd165xb654451v56j1xv56z5sv1654t1z65v41",
+      "_id": "heat_126515fd165xb654451v56j1xv56z5sv1654t1z65v41",
       "name": "Вентиляция",
       "power": 31,
       "included": false
     },
     "window": {
-      "_id": "gym_12651165xvb64451v61xv56z5sv16541z65v41",
+      "_id": "win_12651165xvb64451v61xv56z5sv16541z65v41",
       "name": "Окно",
       "open": true,
       "angle": 45

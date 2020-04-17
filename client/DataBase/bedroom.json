@@ -10,7 +10,7 @@
       "window": true
     },
     "tele": {
-      "_id": "tv_165186zv486xf46435848364b86435z4864864n4",
+      "_id": "bed_165186zv486xf46435848364b86435z4864864n4",
       "name": "Samsung-111",
       "chanelId": 2,
       "power": 230,
@@ -38,20 +38,20 @@
       "presence": false
     },
     "clock": {
-      "_id": "cl_186s48646186486kh4684",
+      "_id": "bed_186s48646186486kh4684",
       "name": "Часы",
       "value": 7.30,
       "alarm": false
     },
     "heating": {
-      "_id": "heat_126515165xcvb654451v561xv56z5sv16541z65v41",
+      "_id": "bed_126515165xcvb654451v561xv56z5sv16541z65v41",
       "name": "Отопление",
       "temp": 31,
       "power": 230,
       "included": false
     },
     "window": {
-      "_id": "win_12651165xvb64451v61xv56z5sv16541z65v41",
+      "_id": "bed_12651165xvb64451v61xv56z5sv16541z65v41",
       "name": "Окно",
       "open": true,
       "angle": 45

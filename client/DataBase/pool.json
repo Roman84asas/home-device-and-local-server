@@ -1,0 +1,45 @@
+[
+  {
+    "_id": "163fbn84v487687z8b4d894984zas94984vz98o498864fn849898489i844",
+    "name": "Бассеин",
+    "plane": {
+      "shine": true,
+      "water": true,
+      "heating": true,
+      "ventilation": true,
+      "music": true
+    },
+    "shine": {
+      "_id": "pool_126515516566xk5fsb654451v561xv56z5sv16541z65v41",
+      "name": "Освещение",
+      "bright": 220,
+      "power": 230,
+      "included": true
+    },
+    "water": {
+      "_id": "pool_126515165xb6543451v561xxv56z5sv16v541z65v41",
+      "name": "Вода",
+      "temp": 31,
+      "included": false
+    },
+    "heating": {
+      "_id": "pool_1265v151k65676xcv654451v561xv56z5sv16541z65v",
+      "name": "Отопление",
+      "temp": 31,
+      "power": 230,
+      "included": false
+    },
+    "ventilation": {
+      "_id": "pool_12v6515fd165xb654451v56j1xv56z5sv1654t1z65v41",
+      "name": "Вентиляция",
+      "power": 31,
+      "included": false
+    },
+    "music": {
+      "_id": "pool_126515d165xb654451v561xm1xv56z5sv1a6v541z65v4r1",
+      "name": "Музыка",
+      "temp": 31,
+      "included": false
+    }
+  }
+]

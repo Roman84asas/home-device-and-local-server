@@ -11,40 +11,40 @@
       "dishwasher": true
     },
     "heating": {
-      "_id": "heat_12651516566xcvb654451v561xv56z5sv16541z65v41",
+      "_id": "kitch_12651516566xcvb654451v561xv56z5sv16541z65v41",
       "name": "Отопление",
       "temp": 31,
       "power": 230,
       "included": false
     },
     "dishwasher": {
-      "_id": "heat_126515165xcb654451v561xv56z5sv16541z65v41",
+      "_id": "kitch_126515165xcb654451v561xv56z5sv16541z65v41",
       "name": "Посудомойка",
       "temp": 31,
       "power": 230,
       "included": false
     },
     "water": {
-      "_id": "heat_126515165xb654451v561xv56z5sv16541z65v41",
+      "_id": "kitch_126515165xb654451v561xv56z5sv16541z65v41",
       "name": "Вода",
       "temp": 31,
       "included": false
     },
     "window": {
-      "_id": "win_126511df65xvb64451v61xv56z5sv16541z65v41",
+      "_id": "kitch_126511df65xvb64451v61xv56z5sv16541z65v41",
       "name": "Окно",
       "open": true,
       "angle": 45
     },
     "fridge": {
-      "_id": "heat_12651516566854451v561xv56z5sv16541z65v41",
+      "_id": "kitch_12651516566854451v561xv56z5sv16541z65v41",
       "name": "Холодильник",
       "temp": -5,
       "power": 230,
       "included": false
     },
     "stove": {
-      "_id": "heat_12651516566xcmbk5fgdsb654451v561xv56z5sv16541z65v41",
+      "_id": "kitch_12651516566xcmbk5fgdsb654451v561xv56z5sv16541z65v41",
       "name": "Плита",
       "temp": 360,
       "power": 230,

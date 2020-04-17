@@ -1,0 +1,45 @@
+[
+  {
+    "_id": "16bdn84v487687z8b4d89498zas94984vz98o49864fn84989489i844",
+    "name": "Ванная комната",
+    "plane": {
+      "shine": true,
+      "shower": true,
+      "bathroom": true,
+      "heating": true,
+      "ventilation": true
+    },
+    "shine": {
+      "_id": "brm_126515516566xk5fsb654451v561xv56z5sv16541z65v41",
+      "name": "Освещение",
+      "bright": 220,
+      "power": 230,
+      "included": true
+    },
+    "shower": {
+      "_id": "brm_126515165xb6543451v561xxv56z5sv16v541z65v41",
+      "name": "Душ",
+      "temp": 31,
+      "included": false
+    },
+    "bathroom": {
+      "_id": "brm_126515165xb6543451v561xxv56z5sv16v541z65v41",
+      "name": "Ванная",
+      "temp": 31,
+      "included": false
+    },
+    "heating": {
+      "_id": "brm_1265v151k65676xcv654451v561xv56z5sv16541z65v",
+      "name": "Отопление",
+      "temp": 31,
+      "power": 230,
+      "included": false
+    },
+    "ventilation": {
+      "_id": "brm_12v6515fd165xb654451v56j1xv56z5sv1654t1z65v41",
+      "name": "Вентиляция",
+      "power": 31,
+      "included": false
+    }
+  }
+]
