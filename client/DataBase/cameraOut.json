@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "21f09bfd77a0474298648a7b559bzfd7nx416841czv651cbxv9f4d3",
+    "name": "Улица",
+    "plane": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true,
+      "8": true,
+      "9": true
+    },
+    "camera_1": {
+      "_id": "156c1v561894189sfd1b51c32",
+      "cameraId": 1,
+      "name": "Первая",
+      "included": true
+    }
+  }
+]
