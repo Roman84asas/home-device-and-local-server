@@ -1,0 +1,27 @@
+[
+  {
+    "_id": "21f09bfd77a0474298648a7b5599f4d3",
+    "text": "The home page in SPA",
+    "user": {
+      "_id": "21f09bfd77a0474298648a7b5599f4d3",
+      "fullname": "Mereneanu-Eni Roman",
+      "avatar": "https://sun9-22.userapi.com/c858132/v858132878/19a68c/JTq9xrYhWk4.jpg?ava=1"
+    },
+    "robot": {
+      "_id": "21f09bfd77a0474298648s5665cvxz564czx541czsd81c35165x4165v465gj4651v",
+      "nameIA": "Elder",
+      "avatar": " "
+    },
+    "services": {
+      "_id": "21f09bfd77a0474298648s5665cvxz564czx541czsd81c35165x4165v46516541651h31351j",
+      "name": "home",
+      "camera": {
+        "_id": "21f09bfd77a0474298648a7b559bzfd7nx41+6841czv6519f4d3",
+        "cameraOut": {
+          "_id": "21f09bfd77a0474298648a7b559bzfd7nx41+6841czv651cbxv9f4d3",
+          "name": "Улица"
+        }
+      }
+    }
+  }
+]
