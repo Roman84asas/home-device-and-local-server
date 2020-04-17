@@ -1,22 +1,69 @@
 [
   {
-    "_id": "21f09bfd77a0474298648a7b559bzfd7nx416841czv651cbxv9f4d3",
+    "_id": "cout_21f09bfd77a0474298648a7b559bzfd7nx416841czv651cbxv9f4d3",
     "name": "Улица",
     "plane": {
-      "1": true,
-      "2": true,
-      "3": true,
-      "4": true,
-      "5": true,
-      "6": true,
-      "7": true,
-      "8": true,
-      "9": true
+      "camera_1": true,
+      "camera_2": true,
+      "camera_3": true,
+      "camera_4": true,
+      "camera_5": true,
+      "camera_6": true,
+      "camera_7": true,
+      "camera_8": true,
+      "camera_9": true
     },
     "camera_1": {
       "_id": "156c1v561894189sfd1b51c32",
       "cameraId": 1,
       "name": "Первая",
+      "included": true
+    },
+    "camera_2": {
+      "_id": "156c12v5618934189sfdcv1b51c32",
+      "cameraId": 2,
+      "name": "Вторая",
+      "included": true
+    },
+    "camera_3": {
+      "_id": "156c1v5618934189sfxcv1b51c32",
+      "cameraId": 3,
+      "name": "Третья",
+      "included": true
+    },
+    "camera_4": {
+      "_id": "156c1v5618494189sdxcv1b51c32",
+      "cameraId": 4,
+      "name": "Четвертая",
+      "included": true
+    },
+    "camera_5": {
+      "_id": "1565c1v561894189sfdxv1b51c32",
+      "cameraId": 5,
+      "name": "Пятая",
+      "included": true
+    },"camera_6": {
+    "_id": "156c1v5661894189sfdxc1b51c32",
+    "cameraId": 6,
+    "name": "Шестая",
+    "included": true
+  },
+    "camera_7": {
+      "_id": "156c1v5617894189dxcv1b51c32",
+      "cameraId": 7,
+      "name": "Седьмая",
+      "included": true
+    },
+    "camera_8": {
+      "_id": "156c1v5681894189xcv1b51c32",
+      "cameraId": 8,
+      "name": "Восьмая",
+      "included": true
+    },
+    "camera_9": {
+      "_id": "156c1v5661894189sfcv1b51c32",
+      "cameraId": 9,
+      "name": "Девятая",
       "included": true
     }
   }

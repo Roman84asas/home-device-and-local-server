@@ -1,0 +1,45 @@
+[
+  {
+    "_id": "156szv16484vf8ds4b6846846456484561",
+    "name": "Туалет",
+    "plane": {
+      "shine": true,
+      "water": true,
+      "urinal": true,
+      "heating": true,
+      "ventilation": true
+    },
+    "shine": {
+      "_id": "heat_12651516566xk5fsb654451v561xv56z5sv16541z65v41",
+      "name": "Освещение",
+      "bright": 220,
+      "power": 230,
+      "included": true
+    },
+    "water": {
+      "_id": "heat_126515165xb654451v561xxv56z5sv16v541z65v41",
+      "name": "Вода",
+      "temp": 31,
+      "included": false
+    },
+    "urinal": {
+      "_id": "heat_126515165xb654451v56j1xv56z5sv1654t1z65v41",
+      "name": "Писуар",
+      "temp": 31,
+      "included": false
+    },
+    "ventilation": {
+      "_id": "heat_126515fd165xb654451v56j1xv56z5sv1654t1z65v41",
+      "name": "Вентиляция",
+      "power": 31,
+      "included": false
+    },
+    "heating": {
+      "_id": "heat_1265v151k6566xcv654451v561xv56z5sv16541z65v",
+      "name": "Отопление",
+      "temp": 31,
+      "power": 230,
+      "included": false
+    }
+  }
+]
