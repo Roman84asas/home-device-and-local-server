@@ -16,18 +16,18 @@
       "_id": "21f09bfd77a0474298648s5665cvxz564czx541czsd81c35165x4165v46516541651h31351j",
       "name": "home",
       "camera": {
-        "_id": "21f09bfd77a0474298648a7b559bzfd7nx416841czv6519f4d3",
+        "_id": "cam_21f09bfd77a0474298648a7b559bzfd7nx416841czv6519f4d3",
         "name": "Камеры",
         "cameraOut": {
-          "_id": "21f09bfd77a0474298648a7b559bzfd7nx416841czv651cbxv9f4d3",
+          "_id": "cout_21f09bfd77a0474298648a7b559bzfd7nx416841czv651cbxv9f4d3",
           "name": "Улица"
         },
         "cameraFirst": {
-          "_id": "21cvzpdvzxc684vcf09bfd77a0474298648a7b559bzfd7nx416841czv651cbxv9f4d3",
+          "_id": "cfir_21cvzpdvzxc684vcf09bfd77a0474298648a7b559bzfd7nx416841czv651cbxv9f4d3",
           "name": "Певрый этаж"
         },
         "cameraSecond": {
-          "_id": "21f09bfd77a0474248a7b559bzfd7nx416841czv651cbxv9f4d3",
+          "_id": "csec_21f09bfd77a0474248a7b559bzfd7nx416841czv651cbxv9f4d3",
           "name": "Второй этаж"
         }
       },

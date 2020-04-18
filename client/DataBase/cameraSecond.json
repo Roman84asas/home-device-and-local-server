@@ -1,6 +1,6 @@
 [
   {
-    "_id": "21f09bfd77a0474248a7b559bzfd7nx416841czv651cbxv9f4d3",
+    "_id": "csec_21f09bfd77a0474248a7b559bzfd7nx416841czv651cbxv9f4d3",
     "name": "Второй этаж",
     "plane": {
       "camera_1": true,
@@ -9,25 +9,25 @@
       "camera_4": true
     },
     "camera_1": {
-      "_id": "156c1v561894p1l89sfd1b51c32",
+      "_id": "csec_156c1v561894p1rl89sfd1b51c32",
       "cameraId": 1,
       "name": "Лестница",
       "included": true
     },
     "camera_2": {
-      "_id": "156c12v561893kk4189sfdcv1b51c32",
+      "_id": "csec_156c12v56189r3kk4189sfdcv1b51c32",
       "cameraId": 2,
       "name": "Спортзал",
       "included": true
     },
     "camera_3": {
-      "_id": "156c1v56189j34d189sfxcv1b51c32",
+      "_id": "csec_156c1v56189jj34d189sfxcv1b51c32",
       "cameraId": 3,
       "name": "Спальня",
       "included": true
     },
     "camera_4": {
-      "_id": "156c1v56h184941g89sdxcv1b51c32",
+      "_id": "csec_156c1v56ha184941g89sdxcv1b51c32",
       "cameraId": 4,
       "name": "Бассеин",
       "included": true

@@ -1,6 +1,6 @@
 [
   {
-    "_id": "21cvzpdvzxc684vcf09bfd77a0474298648a7b559bzfd7nx416841czv651cbxv9f4d3",
+    "_id": "cfir_21cvzpdvzxc684vcf09bfd77a0474298648a7b559bzfd7nx416841czv651cbxv9f4d3",
     "name": "Первый этаж",
     "plane": {
       "camera_1": true,
@@ -10,31 +10,31 @@
       "camera_5": true
     },
     "camera_1": {
-      "_id": "156c1v5618941l89sfd1b51c32",
+      "_id": "cfir_156c1v5618941l89msfd1b51c32",
       "cameraId": 1,
       "name": "Гостиная",
       "included": true
     },
     "camera_2": {
-      "_id": "156c12v561893k4189sfdcv1b51c32",
+      "_id": "cfir_156c12v561893ks4189sfdcv1b51c32",
       "cameraId": 2,
       "name": "Зал",
       "included": true
     },
     "camera_3": {
-      "_id": "156c1v56189j34189sfxcv1b51c32",
+      "_id": "cfir_156c1v56189j3j4189sfxcv1b51c32",
       "cameraId": 3,
       "name": "Столовая",
       "included": true
     },
     "camera_4": {
-      "_id": "156c1v56h18494189sdxcv1b51c32",
+      "_id": "cfir_156c1v56h1s8494189sdxcv1b51c32",
       "cameraId": 4,
       "name": "Кухня",
       "included": true
     },
     "camera_5": {
-      "_id": "1565c1v561894d189sfdxv1b51c32",
+      "_id": "cfir_1565c1v56v1894d189sfdxv1b51c32",
       "cameraId": 5,
       "name": "Кинозал",
       "included": true
