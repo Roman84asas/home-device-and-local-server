@@ -1,4 +1,25 @@
-.logog_foto {
+.logo_foto {
+  margin: 0.5rem 5% 0.5rem 2rem;
+  width: 50px !important;
+  @media(max-width: 400px){
+    margin: 0.5rem 2% 0.5rem 0.5rem;
+  }
+}
+.full_name {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
 
-  margin: 0.5rem 3rem 0.5rem 2rem;
+  span {
+    margin-left: 1rem;
+    font-family: 'Roboto';
+    color: gray;
+    font-size: 1.3rem;
+    @media(max-width: 400px){
+      margin-left: 0;
+      margin-right: 0.3rem;
+    }
+  }
 }
