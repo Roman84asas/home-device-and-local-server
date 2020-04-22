@@ -1,12 +1,12 @@
 import React from 'react';
 
-import './App.scss';
+import {Home} from "./pages";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Hy
+        <Home/>
       </header>
     </div>
   );
