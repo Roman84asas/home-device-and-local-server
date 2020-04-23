@@ -12,6 +12,7 @@ const Header = () => {
                 <div className="left menu full_name">
                     <span>Roman</span>
                 </div>
+
                 <div className="right menu">
                     <div className="item">
                         <button className="ui violet basic button">Log-in</button>
