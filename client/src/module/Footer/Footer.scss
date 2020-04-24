@@ -1,0 +1,31 @@
+footer {
+  flex-shrink: 0;
+  box-shadow: 1px 2px 20px #c4c4c4;
+  min-height: 80px;
+}
+.footer_spa {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  height: 80px;
+  align-items: center;
+  .is_active {
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-right: 1rem;
+      color: green;
+    }
+    .figure {
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      box-sizing: inherit;
+      border: 1px solid #000000;
+      background-color: green;
+    }
+  }
+}
+

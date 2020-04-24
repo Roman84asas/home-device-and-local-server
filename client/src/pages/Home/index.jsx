@@ -1,5 +1,5 @@
 import React from "react";
-import {Header} from "../../module";
+import {Footer, Header} from "../../module";
 
 
 import './Home.scss';
@@ -7,9 +7,12 @@ import './Home.scss';
 
 const Home = () => {
     return(
-        <div>
+        <div className="content">
             <Header/>
-            <h1>Hello</h1>
+            <main>
+                <h1>Hello</h1>
+            </main>
+            <Footer/>
         </div>
     )
 };
