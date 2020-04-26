@@ -9,8 +9,8 @@ const Home = () => {
     return(
         <div className="content">
             <Header/>
-            <main>
-                <h1>Hello</h1>
+            <main className="home_content">
+                <h1>Smart home</h1>
             </main>
             <Footer/>
         </div>
