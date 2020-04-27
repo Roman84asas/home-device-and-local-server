@@ -1,7 +1,9 @@
 import React from "react";
 import { Image } from 'semantic-ui-react'
+import { Link } from "react-router-dom";
 
 import "./Header.scss";
+
 
 const Header = () => {
     return(
@@ -13,10 +15,14 @@ const Header = () => {
                 </div>
                 <div className="right menu">
                     <div className="item">
-                        <button className="ui violet basic button">Log-in</button>
+                        <Link to="/login" className="ui violet basic button">
+                           Log-in
+                        </Link>
                     </div>
                     <div className="item">
-                        <button className="ui grey basic button">Sign up</button>
+                        <Link to="/signup" className="ui grey basic button">
+                            Sign up
+                        </Link>
                     </div>
                 </div>
             </div>
