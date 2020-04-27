@@ -9,7 +9,10 @@ const Header = () => {
     return(
         <header>
             <div className="ui menu">
-                <Image src='https://sun9-22.userapi.com/c858132/v858132878/19a68c/JTq9xrYhWk4.jpg?ava=1' size='mini' circular className="logo_foto"/>
+                <Link to="/" >
+                    <Image src='https://sun9-22.userapi.com/c858132/v858132878/19a68c/JTq9xrYhWk4.jpg?ava=1' size='mini' circular className="logo_foto"/>
+                </Link>
+
                 <div className="left menu full_name">
                     <span>Roman</span>
                 </div>

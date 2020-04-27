@@ -2,7 +2,7 @@ import React from "react";
 import { Route } from "react-router-dom";
 
 import "./Auth.scss";
-import {Footer, Header, LoginForm} from "../../module";
+import {Footer, Header, LoginForm, RegisterForm} from "../../module";
 
 const Auth = () => (
     <div className="content">
@@ -10,6 +10,7 @@ const Auth = () => (
         <main className="auth">
             <div className="auth_content">
                 <Route exact path="/login" component={LoginForm} />
+                <Route exact path="/signup" component={RegisterForm} />
             </div>
         </main>
         <Footer/>
