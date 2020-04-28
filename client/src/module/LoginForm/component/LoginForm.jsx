@@ -4,6 +4,7 @@ import React from "react";
 const LoginForm = () => {
     return(
         <form className="ui form">
+            <h2>Log in for Your Account</h2>
             <div className="field reg">
                 <label>Your Email</label>
                 <input placeholder="Your email"/>
