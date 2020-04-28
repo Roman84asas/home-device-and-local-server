@@ -10,6 +10,7 @@ const RegisterForm  = props => {
         handleChange,
         handleBlur,
         handleSubmit,
+        isSubmitting,
     } = props;
     return(
         <form onSubmit={handleSubmit} className="ui form">
@@ -22,7 +23,7 @@ const RegisterForm  = props => {
                 <label>Last Name</label>
                 <input placeholder="Last Name"/>
             </div>
-            
+
             {errors.email && touched.email && errors.email}
             <div className="field reg">
                 <label>Your Email</label>
@@ -36,15 +37,26 @@ const RegisterForm  = props => {
 
             <div className="field reg">
                 <label>Enter Password</label>
-                <input type='password' />
+                <input          
+                    id="password"           
+                    type='password'     
+                    value={values.password}    
+                    onChange={handleChange}            
+                    placeholder="Enter password"
+                />
             </div>
-            {errors.password && touched.password && errors.password}
             <div className="field reg">
                 <label>Repeat Password</label>
-                <input type='password' />
+                <input         
+                    id="password2"            
+                    type='password'
+                    value={values.password2}   
+                    onChange={handleChange}                  
+                    placeholder="Repeat password"
+                />
             </div>
 
-            <button type="submit" className="ui button">Submit</button>
+            <button type="submit" className="ui button" disabled={isSubmitting}>Submit</button>
         </form>
     )
 };

@@ -6,6 +6,7 @@ export default withFormik({
     mapPropsToValues: () => ({
         email: "",
         password: '',
+        password2: ''
     }),
 
     validate: values => {
@@ -17,7 +18,7 @@ export default withFormik({
           !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
         ) {
           errors.email = 'Invalid email address';
-        }
+        }       
         return errors;
     },
 
