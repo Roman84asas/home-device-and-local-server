@@ -1,63 +1,75 @@
 import React from "react";
+import { Button, Message, Form } from 'semantic-ui-react'
 
 
-const success  = false;
+
 const RegisterForm  = props => {
     const {
         values,
         touched,
         errors,
         handleChange,
-        handleBlur,
         handleSubmit,
         isSubmitting,
     } = props;
-    return(
-        <form onSubmit={handleSubmit} className="ui form">
-            <div className="field reg">
-                <label>First Name</label>
-                <input placeholder="First Name"/>
-            </div>
 
-            <div className="field reg">
+   
+
+    return(
+        <Form 
+            onSubmit={handleSubmit}             
+        >
+            <Form.Field>
+                <label>First Name</label>
+                <input placeholder='First Name' />
+            </Form.Field>
+
+            <Form.Field>
                 <label>Last Name</label>
-                <input placeholder="Last Name"/>
-            </div>
+                <input placeholder='Last Name' />
+            </Form.Field>
 
             {errors.email && touched.email && errors.email}
-            <div className="field reg">
-                <label>Your Email</label>
-                <input 
-                    id="email"
-                    placeholder="Your email"
-                    value={values.email}
-                    onChange={handleChange}
-                />
-            </div>
-
-            <div className="field reg">
+            
+            <Form.Input 
+                label='Your Email' 
+                placeholder='Your email' 
+                id="email"
+                value={values.email}
+                onChange={handleChange}
+            />
+            <Message
+                success
+                header='Form Completed'
+                content="You're all signed up for the newsletter"
+            />    
+            <Message
+                error
+                header='Action Forbidden'
+                content='You can only sign up for an account once with a given e-mail address.'
+            />   
+            <Form.Field>
                 <label>Enter Password</label>
-                <input          
+                <input 
                     id="password"           
                     type='password'     
                     value={values.password}    
                     onChange={handleChange}            
                     placeholder="Enter password"
                 />
-            </div>
-            <div className="field reg">
+            </Form.Field>
+            <Form.Field>
                 <label>Repeat Password</label>
-                <input         
+                <input 
                     id="password2"            
                     type='password'
                     value={values.password2}   
                     onChange={handleChange}                  
                     placeholder="Repeat password"
                 />
-            </div>
-
-            <button type="submit" className="ui button" disabled={isSubmitting}>Submit</button>
-        </form>
+            </Form.Field>            
+            <Button disabled={isSubmitting}>Submit</Button>
+        </Form>
     )
 };
 
