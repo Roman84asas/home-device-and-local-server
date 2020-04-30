@@ -42,16 +42,18 @@ const RegisterForm  = props => {
                     value={values.password}    
                     onChange={handleChange}            
                     placeholder="Enter password"
+                    autoComplete="new-password"
                 />
             </div>
             <div className="field reg">
-                <label>Repeat Password</label>
+                <label>Confirmation Password</label>
                 <input         
                     id="password2"            
                     type='password'
                     value={values.password2}   
-                    onChange={handleChange}                  
-                    placeholder="Repeat password"
+                    onChange={handleChange}         
+                    autoComplete="new-password"         
+                    placeholder="Confirmation password"
                 />
             </div>
 

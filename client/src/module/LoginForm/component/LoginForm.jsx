@@ -1,17 +1,38 @@
 import React from "react";
 
 
-const LoginForm = () => {
+const LoginForm = props => {
+    const {
+        values,
+        touched,
+        errors,
+        handleChange,
+        handleSubmit,
+        isSubmitting,
+    } = props;
     return(
-        <form className="ui form">
+        <form onSubmit={handleSubmit} className="ui form">
             <h2>Log in for Your Account</h2>
+            {errors.email && touched.email && errors.email}
             <div className="field reg">
                 <label>Your Email</label>
-                <input placeholder="Your email"/>
+                <input 
+                    id="email"
+                    placeholder="Your email"
+                    value={values.email}
+                    onChange={handleChange}
+                />
             </div>
             <div className="field reg">
                 <label>Enter Password</label>
-                <input type='password' />
+                <input          
+                    id="password"           
+                    type='password'     
+                    value={values.password}    
+                    onChange={handleChange}            
+                    placeholder="Enter password"
+                    autoComplete="new-password"
+                />
             </div>
             <div className="field reg">
                 <div className="ui checkbox">
@@ -19,7 +40,7 @@ const LoginForm = () => {
                     <label>I agree to the Terms and Conditions</label>
                 </div>
             </div>
-            <button type="submit" className="ui button">Submit</button>
+            <button type="submit" className="ui button" disabled={isSubmitting}>Submit</button>
         </form>
     )
 };
