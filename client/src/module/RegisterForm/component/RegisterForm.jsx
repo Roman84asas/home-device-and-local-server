@@ -1,5 +1,4 @@
 import React from "react";
-import { Button, Message, Form } from 'semantic-ui-react'
 
 
 
@@ -12,64 +11,52 @@ const RegisterForm  = props => {
         handleSubmit,
         isSubmitting,
     } = props;
-
-   
-
     return(
-        <Form 
-            onSubmit={handleSubmit}             
-        >
-            <Form.Field>
+        <form onSubmit={handleSubmit} className="ui form">
+            <div className="field reg">
                 <label>First Name</label>
-                <input placeholder='First Name' />
-            </Form.Field>
+                <input placeholder="First Name"/>
+            </div>
 
-            <Form.Field>
+            <div className="field reg">
                 <label>Last Name</label>
-                <input placeholder='Last Name' />
-            </Form.Field>
+                <input placeholder="Last Name"/>
+            </div>
 
             {errors.email && touched.email && errors.email}
-            
-            <Form.Input 
-                label='Your Email' 
-                placeholder='Your email' 
-                id="email"
-                value={values.email}
-                onChange={handleChange}
-            />
-            <Message
-                success
-                header='Form Completed'
-                content="You're all signed up for the newsletter"
-            />    
-            <Message
-                error
-                header='Action Forbidden'
-                content='You can only sign up for an account once with a given e-mail address.'
-            />   
-            <Form.Field>
-                <label>Enter Password</label>
+            <div className="field reg">
+                <label>Your Email</label>
                 <input 
+                    id="email"
+                    placeholder="Your email"
+                    value={values.email}
+                    onChange={handleChange}
+                />
+            </div>
+
+            <div className="field reg">
+                <label>Enter Password</label>
+                <input          
                     id="password"           
                     type='password'     
                     value={values.password}    
                     onChange={handleChange}            
                     placeholder="Enter password"
                 />
-            </Form.Field>
-            <Form.Field>
+            </div>
+            <div className="field reg">
                 <label>Repeat Password</label>
-                <input 
+                <input         
                     id="password2"            
                     type='password'
                     value={values.password2}   
                     onChange={handleChange}                  
                     placeholder="Repeat password"
                 />
-            </Form.Field>            
-            <Button disabled={isSubmitting}>Submit</Button>
-        </Form>
+            </div>
+
+            <button type="submit" className="ui button" disabled={isSubmitting}>Submit</button>
+        </form>
     )
 };
 
