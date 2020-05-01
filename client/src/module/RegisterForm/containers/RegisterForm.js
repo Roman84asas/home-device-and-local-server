@@ -6,7 +6,7 @@ export default withFormik({
     mapPropsToValues: () => ({
         email: "",
         password: '',
-        password2: ''
+        password_2: ''
     }),
 
     validate: values => {

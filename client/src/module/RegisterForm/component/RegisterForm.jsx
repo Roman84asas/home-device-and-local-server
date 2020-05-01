@@ -14,14 +14,9 @@ const RegisterForm  = props => {
     return(
         <form onSubmit={handleSubmit} className="ui form">
             <div className="field reg">
-                <label>First Name</label>
-                <input placeholder="First Name"/>
-            </div>
-
-            <div className="field reg">
-                <label>Last Name</label>
-                <input placeholder="Last Name"/>
-            </div>
+                <label>Full Name</label>
+                <input placeholder="Full Name"/>
+            </div>            
 
             {errors.email && touched.email && errors.email}
             <div className="field reg">
@@ -48,9 +43,9 @@ const RegisterForm  = props => {
             <div className="field reg">
                 <label>Confirmation Password</label>
                 <input         
-                    id="password2"            
+                    id="password_2"            
                     type='password'
-                    value={values.password2}   
+                    value={values.password_2}   
                     onChange={handleChange}         
                     autoComplete="new-password"         
                     placeholder="Confirmation password"
