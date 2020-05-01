@@ -1,6 +1,7 @@
 import React from "react";
 
 
+
 const LoginForm = props => {
     const {
         values,
@@ -9,6 +10,7 @@ const LoginForm = props => {
         handleChange,
         handleSubmit,
         isSubmitting,
+        handleBlur,
     } = props;
     return(
         <form onSubmit={handleSubmit} className="ui form">
@@ -21,15 +23,18 @@ const LoginForm = props => {
                     placeholder="Your email"
                     value={values.email}
                     onChange={handleChange}
+                    onBlur={handleBlur}
                 />
             </div>
+            {errors.password}
             <div className="field reg">
                 <label>Enter Password</label>
                 <input          
                     id="password"           
                     type='password'     
                     value={values.password}    
-                    onChange={handleChange}            
+                    onChange={handleChange}    
+                    onBlur={handleBlur}        
                     placeholder="Enter password"
                     autoComplete="new-password"
                 />

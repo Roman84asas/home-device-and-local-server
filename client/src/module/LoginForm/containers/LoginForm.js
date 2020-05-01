@@ -2,6 +2,8 @@ import LoginForm from '../component/LoginForm';
 import { withFormik } from 'formik';
 
 
+import validateForm from "../../../utils/validate";
+
 export default withFormik({
     mapPropsToValues: () => ({
         email: "",
@@ -9,16 +11,9 @@ export default withFormik({
     }),
 
     validate: values => {
-        const errors = {};
-
-        if (!values.email) {
-          errors.email = 'Required';
-        } else if (
-          !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
-        ) {
-          errors.email = "Errors email";
-        }       
-        return errors;
+      let errors = {};
+      validateForm({ isAuth: false, values, errors });
+      return errors;
     },
 
     handleSubmit: (values, { setSubmitting }) => {
