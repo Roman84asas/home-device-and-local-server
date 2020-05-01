@@ -1,32 +1,31 @@
 import RegisterForm from '../component/RegisterForm';
 import { withFormik } from 'formik';
 
+import validateForm from "../../../utils/validate";
+
 
 export default withFormik({
     mapPropsToValues: () => ({
-        email: "",
-        password: '',
-        password_2: ''
-    }),
+        email: "",        
+        fullname: "",
+        password: "",
+        password_2: ""
+    }),    
 
     validate: values => {
-        const errors = {};
-
-        if (!values.email) {
-          errors.email = 'Required';
-        } else if (
-          !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
-        ) {
-          errors.email = "Errors email";
-        }       
-        return errors;
+      let errors = {};
+      validateForm({ isAuth: false, values, errors });
+      return errors;
     },
-
+    
     handleSubmit: (values, { setSubmitting }) => {
         setTimeout(() => {
           alert(JSON.stringify(values, null, 2));
+          console.log(values);
           setSubmitting(false);
-        }, 400);
+        }, 4000);
+        
+      
     },
 
     displayName: "RegisterForm"
