@@ -1,9 +1,12 @@
 import React from "react";
+import selectSort from "selection-sort-array-number";
 
 import "./Footer.scss";
 
 
 const  Footer = () => {
+    const arr = [15, 22, 2, 3, 9, 1,7, 6];
+    console.log(selectSort(arr));
     return(
         <footer>
             <div className="footer_spa">
